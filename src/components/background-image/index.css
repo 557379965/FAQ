@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backgroundImage img{
+    position: absolute;
+    margin-left: 65%;
+    top: 80px;
+    width: 450px;
+    height: 400px;
+    overflow: hidden;
+    
+}
+
+.backgroundImage .boxImage{
+    width: 30%;
+    height: 210px;
+    top: 35%;
+    right: 13%;
+}
