@@ -44,7 +44,7 @@ function Accordion() {
                   <h3 className={accordion === index ? "active" : ""}>{item.question}</h3>
                   <div>
                     {accordion === index ?
-                    <img src={arrowDown}/> : <img src={arrowUp}/> }
+                    <img src={arrowDown} /> : <img src={arrowUp}/> }
                   </div>
                 </div>
                 <div><p className={accordion === index ? "active" : "inactive"} >{item.answer}</p></div>

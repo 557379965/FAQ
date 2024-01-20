@@ -18,7 +18,7 @@ body {
 
 .mainContainer{
   background-color: #fff;
-  width: 920px;
+  max-width: 920px;
   height: 509px;
   border-radius: 15px;
   margin-left: 33%;
@@ -39,7 +39,6 @@ code {
 h1 {
   font-size: 42px;
   color: var(--text-primary);
-  margin: 0px;
   margin-bottom: 30px;
 }
 
@@ -52,10 +51,16 @@ h1 {
 }
 .accordion__faq > div{
   background-color: var(--white);
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   padding: 0px 15px;
   border-radius: 5px;
   cursor: pointer;
+  height: 15px;
+}
+
+.accordion__faq > div p{
+   position: absolute;
+   margin-left: 2.3%;
 }
 
 .accordion__title{
@@ -65,8 +70,10 @@ h1 {
 }
 
 .heading-name h1{
-  margin-left: 45px;
+  position: relative;
+  padding-right: 36%;
   padding-top: 40px;
+  left: 5%;
 }
 .accordion__faq-heading{
   display: flex;
@@ -74,7 +81,7 @@ h1 {
   margin-left: 35px;
 }
 .accordion__faq-heading .active{
-  color: var(--text-primary);
+  color: var(--text-primary); 
 }
 
 .accordion__faq-heading :hover{
@@ -92,3 +99,72 @@ h1 {
   color: var(--text-secondary);
   line-height: 1.4;
 }
+
+@media only screen and (max-width: 1311px){
+  .mainContainer{
+    background-color: #fff;
+    width: 770px;
+    height: 500px;
+    border-radius: 15px;
+    margin-left: 33%;
+    box-shadow: 0px 50px 50px -20px #35127A7F;
+    float: none;
+    margin-right: 0;
+   transition: all 1s;
+  }
+
+  h1 {
+    color: black;
+    padding-left: 35%;
+    top: 30px;
+    float: none;
+    transition: all 1s;
+   }
+
+   .accordion__faq-heading{
+    display: flex;
+    margin-left: 10%;
+  }
+
+  .accordion__faq > div p{
+   display: flex;
+   margin: 0 75px;
+   z-index: 999;
+  }
+}
+
+
+ @media only screen and (max-width: 1290px) {
+  .mainContainer{
+    background-color: #fff;
+    width: 550px;
+    height: 600px;
+    border-radius: 15px;
+    margin-left: 33%;
+    box-shadow: 0px 50px 50px -20px #35127A7F;
+    float: none;
+    margin-right: 0;
+   transition: all 1s;
+  }
+
+  .container{
+    float: none;
+    margin-right: 0;
+    transition: all 1s;
+  }
+ 
+  h1 {
+   color: black;
+   padding-left: 35%;
+   top: 40px;
+   float: none;
+   margin-right: 0;
+   transition: all 1s;
+  }
+  .accordion__faq-heading{
+    display: flex;
+    top: 150px;
+    left: 90px;
+  }
+
+} 

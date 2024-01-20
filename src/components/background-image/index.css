@@ -8,15 +8,27 @@
     position: absolute;
     margin-left: 65%;
     top: 80px;
-    width: 450px;
+    max-width: 450px;
     height: 400px;
     overflow: hidden;
-    
 }
 
-.backgroundImage .boxImage{
-    width: 30%;
-    height: 210px;
-    top: 35%;
-    right: 13%;
+
+@media only screen and (max-width: 1310px){
+    .backgroundImage img{    
+    display: none;
+      }
+    }
+
+@media only screen and (max-width: 1290px){
+.backgroundImage img{
+    
+  }
 }
+
+
+
+
+
+
+
