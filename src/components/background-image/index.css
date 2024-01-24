@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.backgroundImage img{
+.background img{
     position: absolute;
-    margin-left: 65%;
+    margin-left: 300px;
     top: 80px;
     max-width: 450px;
     height: 400px;
@@ -15,13 +15,13 @@
 
 
 @media only screen and (max-width: 1310px){
-    .backgroundImage img{    
+    .background img{    
     display: none;
       }
     }
 
 @media only screen and (max-width: 1290px){
-.backgroundImage img{
+.background img{
     
   }
 }

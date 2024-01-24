@@ -1,15 +1,15 @@
 import React from "react"
 import "./index.css"
-import backgroundImage from '../../assets/backgroundImage.svg'
+import background from '../../assets/backgroundImage.svg'
 
-function BackgroundImage(){
+function Background(){
     return(
         <>
-        <div className="backgroundImage">
-    <img src={backgroundImage}/>
+        <div className="background">
+                <img src={background}/>
         </div>
         </>
     )
 }
 
-export default BackgroundImage
+export default Background

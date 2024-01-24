@@ -28,6 +28,8 @@ body {
 .container{
   max-width: 1140px;
   margin: auto;
+  margin-left: 340px;
+
 }
 
 code {
@@ -99,6 +101,9 @@ h1 {
   color: var(--text-secondary);
   line-height: 1.4;
 }
+
+
+
 
 @media only screen and (max-width: 1311px){
   .mainContainer{
